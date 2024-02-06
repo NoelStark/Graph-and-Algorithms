@@ -38,7 +38,11 @@ public class Program
             allDistances[sourceNode] = distances;
             
         }
-        DijkstraAlgorithm.DisplayDijkstra(allDistances);
 
+        DijkstraAlgorithm.DisplayDijkstra(allDistances);
+        FloydWarshall.FloydWarShall(graph);
+        Console.WriteLine();
+
+        FloydWarshall.DisplayMatrix();
     }
 }

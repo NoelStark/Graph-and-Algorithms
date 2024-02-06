@@ -59,7 +59,6 @@ public class DijkstraAlgorithm
                 }
                 else
                     Console.Write("\u221e ");
-
                 
             }
 
